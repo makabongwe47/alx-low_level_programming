@@ -1,1 +1,1 @@
-Script that generates the assembly code (Intel syntax) of a C code and save it in an output file
+C program that prints a message follwed by a new line, to the standard error
