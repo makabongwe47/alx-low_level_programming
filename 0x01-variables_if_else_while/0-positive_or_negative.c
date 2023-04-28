@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
+ * main - Will determine whether a number is positive, negative or zero.
  *
  * Return: Always 0 (Sucesss)
  */
@@ -14,13 +14,13 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	
 	if (n>0) {
-		printf("The number is positive\n");
+		printf("%d is positive\n", n);
 	}
-	else if (n=0) {
-		printf("The number is zero"\n");
+	else if (n==0) {
+		printf("%d is zero"\n", n);
 	}
 	else if (n<0) {
-		printf("The number is negative\n");
+		printf("%d is negative\n", n);
 	}
 	
 	return (0);
