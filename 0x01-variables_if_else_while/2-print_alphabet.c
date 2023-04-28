@@ -7,12 +7,14 @@
  */
 int main(void)
 {
-	int i
+	char c[26] = "abcdefghijklmnopqrstuvwxyz";
+	
+	int i;
 
-	for (i = 97, i < 123, i++)
-	{
-		putchar(i);
-	}
-	putchar("\n");
-	return (0);
+		for (i = 0; i < 26; i++)
+		{
+			putchar(c[i])
+		}
+		putchar("\n");
+		return (0);
 }
