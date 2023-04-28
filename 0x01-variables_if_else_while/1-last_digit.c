@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
- * main - Print the last digit of the number stored in variable n and determine whether that last digit is greater than 5, less than 6, equal to 0 or not equal to zero.
+ * main - Print the last digit of the number stored in variable n. 
+ * Determine whether the last digit of n is greater than 5, less than 6, or 0
  *
  * Return: Always 0 (Sucess)
  */
