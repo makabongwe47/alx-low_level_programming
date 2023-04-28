@@ -1,1 +1,1 @@
-Using variables, if, else, while statements to create and execute programs
+A program that prints the alphabet in lowercase
