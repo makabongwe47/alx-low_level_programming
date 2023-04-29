@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int i;	
+int i;	
 /*
  * ASCII value of a = 97
  * ASCII value for z = 122
