@@ -9,13 +9,15 @@ int main()
 {
 	int i;
 		
-	//ASCII value of a = 97 and z = 122
-	//ASCII characters from 97 to 122 are lowercase alphabets
+	/* ASCII value of a = 97
+	 * ASCII value for z = 122
+	 */
 		for (i = 97; i <= 122; i++)
 		{
-			//The integer i with %c will be converted to a character
-			//Before printing .%c will take its equivalent character value
-			putchar("%c ", i);
+			/* The ASCII should be taken from i and display
+			 * its character equivalent
+			 */
+			putchar( i);
 		}
 		putchar('\n');
 		return (0);
