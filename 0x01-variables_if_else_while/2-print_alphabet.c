@@ -14,10 +14,10 @@ int main(void)
 	 */
 		for (i = 97; i <= 122; i++)
 		{
-			/* 
-			 * The ASCII should be taken from i and display
-			 * its character equivalent
-			 */
+		/* 
+		 * The ASCII should be taken from i and display
+		 * its character equivalent
+		 */
 			putchar(i);
 		}
 		putchar('\n');
