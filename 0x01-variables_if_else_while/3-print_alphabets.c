@@ -2,13 +2,11 @@
 /*
  * main - Entry point
  * 
- * Decription: Prints the alphabets in lowercase and uppercase,
- * all these will be printed with the use of the ASCII values
- * which separate the upper and lowercase characters.
+ * Decription: Prints the alphabets in lowercase and uppercase
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main()
 {
 	int i;
 /*
