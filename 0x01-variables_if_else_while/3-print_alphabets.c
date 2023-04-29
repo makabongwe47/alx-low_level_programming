@@ -1,12 +1,12 @@
 #include <stdio.h>
 /*
  * main - Entry point
- * 
+ *
  * Decription: Prints the alphabets in lowercase and uppercase
  *
  * Return: Always 0 (Success)
  */
-int main()
+void main()
 {
 	int i;
 /*
