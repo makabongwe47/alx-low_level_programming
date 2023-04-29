@@ -1,6 +1,10 @@
 #include <stdio.h>
 /*
- * main - Prints the alphabets in lowercase and uppercase.
+ * main - Entry point
+ * 
+ * Decription: Prints the alphabets in lowercase and uppercase,
+ * all these will be printed with the use of the ASCII values
+ * which separate the upper and lowercase characters.
  *
  * Return: Always 0 (Success)
  */
