@@ -6,9 +6,10 @@
  *
  * Return: Always 0 (Success)
  */
-int main(int i)
+int main(void)
 {
 	int i;
+	int j;
 /*
  * ASCII value of a = 97
  * ASCII value of z = 122
@@ -25,13 +26,13 @@ int main(int i)
  * ASCII value of A = 65
  * ASCII value of Z = 90
  */
-	for (i = 65; i <= 90; i++)
+	for (j = 65; j <= 90; j++)
 	{
 /*
  * The ASCII can be taken from i and display its character
  * eqivalent
  */
-		putchar(i);
+		putchar(j);
 	}
 	putchar('\n');
 	return (0);
