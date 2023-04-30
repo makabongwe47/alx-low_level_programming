@@ -10,8 +10,8 @@
 int main(void)
 
 {
-	int i;
-	int j;
+	int i = 'a';
+	int j = 'A';
 /*
  * ASCII value of a = 97
  * ASCII value of z = 122
