@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main(void) /*This function will return an integer value*/
 {
 	int i;
 	int j;
