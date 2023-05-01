@@ -10,9 +10,9 @@
 
 int main(void)
 {
-	int a
-	int b
-	int c
+	int a;
+	int b;
+	int c;
 
 	for (a = 48; a < 58; a++)
 	{
@@ -28,7 +28,7 @@ int main(void)
 					if (a != 55 || b != 56)
 					{
 						putchar(',');
-						putcahar( );
+						putcahar(' ');
 					}
 				}
 			}
