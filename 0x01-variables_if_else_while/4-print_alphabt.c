@@ -8,14 +8,17 @@
  */
 int main(void)
 {
-	int i;
+	int i = 97;
 
-	for (i = 97; i < 123; i++)
+	while (i <= 122)
 	{
 		if (i != 101 && i != 113)
 		{
-			putchar(i);
+			i++;
+			continue;
 		}
+			putchar(i);
+			i++;
 	}
 		putchar('\n');
 		return (0);
