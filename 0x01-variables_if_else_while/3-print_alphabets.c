@@ -2,7 +2,6 @@
 
 /**
  * main - Entry point
- * void: Null value
  *
  * Decription: Prints the alphabets in lowercase and uppercase
  * Return: Always 0 (Success)
@@ -11,14 +10,14 @@
 int main(void)
 {
 	int i = 97;
-	int j = 65
+	int j = 65;
 
-	for (i = 97; i <= 122; i++)
+	while (i <= 122)
 	{
 		putchar(i);
 	}
 
-	for (j = 65; j <= 90; j++)
+	while (j <= 90)
 	{
 		putchar(j);
 	}
