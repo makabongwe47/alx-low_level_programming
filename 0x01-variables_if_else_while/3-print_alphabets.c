@@ -8,9 +8,9 @@
  */
 int main(void)
 {
-	char alph[] = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
-	int i = 'a'; /*lowercase*/
-	int j = 'A'; /*uppercase*/
+	char alph[] = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+	int i = 'a';
+	int j = 'A';
 /**
  * ASCII value of a = 97
  * ASCII value of z = 122
