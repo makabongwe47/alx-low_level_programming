@@ -1,1 +1,1 @@
-A program that prints all possible different combinations of three digits
+A program that prints all possible combinations of two two-digit numbers
