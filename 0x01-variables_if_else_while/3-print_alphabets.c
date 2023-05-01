@@ -15,11 +15,13 @@ int main(void)
 	while (i <= 122)
 	{
 		putchar(i);
+		i++;
 	}
 
 	while (j <= 90)
 	{
 		putchar(j);
+		j++;
 	}
 	putchar('\n');
 	return (0);
