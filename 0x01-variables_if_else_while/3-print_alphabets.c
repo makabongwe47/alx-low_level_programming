@@ -11,8 +11,6 @@ int main(void)
 	int i, j;
 	i = 97;
 	j = 65;
-	int i = 'a' /*lowercase*/
-	int j = 'A' /*uppercase*/
 /**
  * ASCII value of a = 97
  * ASCII value of z = 122
