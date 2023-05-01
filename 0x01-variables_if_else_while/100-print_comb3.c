@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: Prints all possible different combinations 
+ * Description: Prints all possible different combinations
  * of two numbers
  *
  * Return: Always 0 (Success)
@@ -19,8 +19,8 @@ int main(void)
 		{
 			if (j > i)
 			{
-				putchar(j);
 				putchar(i);
+				putchar(j);
 			if (i != 56 || j != 57)
 				{
 				putchar(',');
