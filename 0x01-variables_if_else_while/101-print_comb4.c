@@ -18,7 +18,7 @@ int main(void)
 	{
 		for (b = 49; b < 58; b++)
 		{
-			for (c = 50; c < 58; C++)
+			for (c = 50; c < 58; c++)
 			{
 				if (c > b && b > a)
 				{
@@ -28,7 +28,7 @@ int main(void)
 					if (a != 55 || b != 56)
 					{
 						putchar(',');
-						putcahar(' ');
+						putchar(' ');
 					}
 				}
 			}
