@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	int i = 'a'; /*lowercase alphabets*/
-	int j = 'A'; /*Uppercase alphabets*/
+	int i = 97; /*lowercase alphabets*/
+	int j = 65; /*Uppercase alphabets*/
 /**
  * ASCII value of a = 97
  * ASCII value of z = 122
