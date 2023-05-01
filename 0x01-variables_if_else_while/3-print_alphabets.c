@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-/*
+/**
  * main - Entry point
  * void: Null value
  *
@@ -11,25 +10,25 @@ int main(void)
 {
 	int i = 'a';
 	int j = 'A';
-/*
+/**
  * ASCII value of a = 97
  * ASCII value of z = 122
  */
 	for (i = 97; i <= 122; i++)
 	{
-/*
+/**
  * The ASCII can be taken from i and display its character
  * equivalent
  */
 		putchar(i);
 	}
-/*
+/**
  * ASCII value of A = 65
  * ASCII value of Z = 90
  */
 	for (j = 65; j <= 90; j++)
 	{
-/*
+/**
  * The ASCII can be taken from i and display its character
  * eqivalent
  */
