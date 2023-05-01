@@ -1,1 +1,1 @@
-A program that prints all the numbers of base 16 in lowercase, using only putchar()
+A program that prints all possible combinations of single-digit numbers
