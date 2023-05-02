@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Description: Prints alphabets in lowercase
+ Description: Prints alphabets in lowercase
  * and followed by a new line
  *
  * Return: Always 0 (Success)
@@ -10,11 +9,13 @@
 
 void print_alphabet(void)
 {
-	int i;
+	int i = 97;
 
-	for (i = 97; i <= 122; i++)
+	while (i <= 122)
 	{
 		_putchar(i);
+		i++;
 	}
 	_putchar('\n');
+	return (0);
 }
