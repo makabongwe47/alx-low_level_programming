@@ -3,17 +3,15 @@
 /**
  * Description: Prints all alphabets in lowercase
  * and followed by a new line
- *
- * Return: Always 0 (Success)
  */
 
 void print_alphabet(void)
 {
-	char ch;
+	char alp;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (letter = 'a'; alp <= 'z'; alp++)
 	{
-		_putchar(ch);
+		_putchar(alp;
 	}
 	_putchar('\n');
 }
