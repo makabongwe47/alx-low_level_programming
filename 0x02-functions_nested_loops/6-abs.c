@@ -2,8 +2,8 @@
 
 /**
  * _abs - Computes the absolute value of an integer
- * @n: the int being checked
- * Return: the absolute value of an int
+ * @n:the int being checked
+ * Return:the absolute value of an int
  */
 
 int _abs(int)
