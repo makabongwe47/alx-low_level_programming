@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * add - Adds two integers
+ * add - Adds two integers and returns the result
  * @l: int to be added to m
  * @m: int to be added to l
- * @e: the result of the sum of the added integers
  * Return: the result of the sum of added integers
  */
 
