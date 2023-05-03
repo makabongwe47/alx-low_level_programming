@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * Description: Function that adds two integers and
- * returns the result
- *
- * Return: 0
+ * add - Adds two integers
+ * @l: int to be added to m
+ * @m: int to be added to l
+ * @e: the result of the sum of the added integers
+ * Return: the result of the sum of added integers
  */
 
 int add(int l, int m)
