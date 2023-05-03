@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * Description: unction that prints all natural numbers
+ * print_to_98 - Prints all natural numbers
  * from n to 98, followed by a new line
- *
- * Return: 0
+ * @x: print starting from this int
  */
 
-void print_to_98(int n)
+void print_to_98(int x)
 {
 	int i, j;
 
@@ -20,8 +19,7 @@ void print_to_98(int n)
 			else if (i == 98)
 				printf("%d\n", i);
 		}
-	}
-		else if (x >= 98)
+	} else if (x >= 98)
 		{
 			for (j = x; j >= 98; j--)
 			{
